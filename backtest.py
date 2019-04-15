@@ -10,10 +10,9 @@ import importlib
 import pickle
 import pyclbr
 
-
-from market_data import DataFetcher
 from defaultUniverses.sp500 import Universe
-from test_data import Test
+from helpers.market_data import DataFetcher
+from helpers.test_data import Test
 
 # from strategies.strategy_template import Strategy
 
